@@ -1,0 +1,35 @@
+.carre{
+	margin-left: 50px;
+	margin-bottom: 50px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid purple;
+}
+#carre3{
+	transform: rotate(45deg);
+}
+.rond{width: 70px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+height: 70px;
+border: 1px solid purple;
+border-radius: 50%;}
+
+.ligne1, .ligne2, .ligne3, .ligne4, .ligne5{height: 100%;
+	width: 19%;
+}
+
+.bloc{display: flex;
+	margin-left: 25%;
+	border: 2px solid black;
+	width: 850px;
+height: 580px;
+justify-content: space-between;
+}
+
+button {width: 400px;
+	margin-left: 20%;
+	height: 50px;}
+
+.active{background-color: orange;}
